@@ -1,0 +1,44 @@
+body { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  background-color: #f0f0f0; 
+}
+
+.mic-container {
+  text-align: center;
+}
+
+.mic-icon {
+  font-size: 100px;
+  color: red;
+  cursor: pointer;
+  transition: transform 0.1s ease, color 0.1s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.mic-icon:active {
+  transform: scale(1.1);
+}
+
+.instructions {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #999;
+}
+
+.status.connected {
+  color: green;
+}
