@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontrol Rekam Suara via MQTT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+</head>
+<body>
+  <div class="mic-container">
+    <div id="micIcon" class="mic-icon">🎤</div>
+    <div class="instructions">Tahan ikon mic untuk merekam, lepas untuk putar suara (via MQTT)</div>
+    <div id="status" class="status">Status: Belum terhubung</div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
